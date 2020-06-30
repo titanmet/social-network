@@ -1,5 +1,5 @@
 import React from "react";
-import nav_classes from  './Nav.module.css';
+import nav_classes from './Nav.module.css';
 
 // console.log(nav_classes);
 
