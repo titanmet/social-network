@@ -1,16 +1,14 @@
 import React from "react";
 import nav_classes from './Nav.module.css';
 
-// console.log(nav_classes);
-
 const Nav = () =>{
     return (
         <nav className={nav_classes.nav}>
             <div className={nav_classes.item}>
-                <a> Profile </a>
+                <a href='/profile'> Profile </a>
             </div>
             <div className={`${nav_classes.item} ${nav_classes.active}`}>
-                <a> Messages </a>
+                <a href='/dialogs'> Messages </a>
             </div>
             <div className={nav_classes.item}>
                 <a> News </a>
