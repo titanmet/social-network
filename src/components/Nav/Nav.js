@@ -2,13 +2,13 @@ import React from "react";
 import nav_classes from './Nav.module.css';
 import {NavLink} from "react-router-dom";
 
-const Nav = () =>{
+const Nav = () => {
     return (
         <nav className={nav_classes.nav}>
             <div className={nav_classes.item}>
                 <NavLink to='/profile' activeClassName={nav_classes.activeLink}> Profile </NavLink>
             </div>
-            <div className={nav_classes.item}>
+            <div className={`${nav_classes.item} ${nav_classes.activeLink}`}>
                 <NavLink to='/dialogs' activeClassName={nav_classes.activeLink}> Messages </NavLink>
             </div>
             <div className={nav_classes.item}>
