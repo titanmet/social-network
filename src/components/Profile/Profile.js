@@ -1,16 +1,12 @@
 import React from "react";
 import profile_classes from './Profile.module.css';
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
 const Profile = () => {
     return (
     <div>
-        <div>
-            <img src='https://gameranx.com/wp-content/uploads/2019/08/Animal-Crossing-New-Horizons-1080P-Wallpaper-2-1024x576.jpg' />
-        </div>
-        <div>
-            ava + description
-        </div>
+        <ProfileInfo />
         <MyPosts />
     </div>
     )
